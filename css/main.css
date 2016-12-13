@@ -1,0 +1,42 @@
+body {
+    background: white;
+}
+
+#doc {
+    text-align: center;
+}
+
+#vis {
+    border: solid;
+    border-width: 0.5;
+    border-radius: 15px;
+}
+
+#svg {
+    overflow: visible;
+    width: 1200px;
+    height: 1000px;
+
+    margin-left: 10;
+}
+
+
+#inputValue {
+    margin: 15px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    padding: 10px;
+    background-color: lightblue;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
